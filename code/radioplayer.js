@@ -20,12 +20,11 @@ async function fetchData (){
             <div class="name">
                 <h2>${radioE.name}</h2>
             </div>
-        
-             <div class="player">
-                <audio controls>
-                    <source src="${radioE.liveaudio.url}" type="audio/mpeg" />
-                </audio>
-            </div>
+             
+            <audio controls>
+                <source src="${radioE.liveaudio.url}" type="audio/mpeg" />
+            </audio>
+            
         </div>
 
         `;
